@@ -50,7 +50,6 @@ This project demonstrates the following C++ and Object-Oriented Programming conc
 
 * **Programming Language:** C++
 * **Programming Paradigm:** Object-Oriented Programming (OOP)
-* **Standard Template Library (STL):** `vector`, `map`
 * **Development Environment:** Visual Studio
 * **Application Type:** Console-Based Application
 * **Concepts:** Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction

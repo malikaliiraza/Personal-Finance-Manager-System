@@ -11,7 +11,7 @@ The **Personal Finance Manager** is a C++ console application developed using **
 
 ---
 
-## Features
+## ✨ Features
 
 * 🔐 Password-protected user authentication
 * 💵 Add and manage income records
@@ -27,3 +27,19 @@ The **Personal Finance Manager** is a C++ console application developed using **
 * 📚 Utilizes C++ STL (`vector` and `map`) for efficient data management
 
 ---
+
+## 🎯 Learning Objectives
+
+This project demonstrates the following C++ and Object-Oriented Programming concepts:
+
+* Classes & Objects
+* Inheritance
+* Polymorphism
+* Encapsulation
+* Abstraction
+* Constructors & Destructors
+* Function Overriding
+* Menu-Driven Programming
+* Data Management & Report Generation
+* Input Validation
+* Real-World OOP Application Development

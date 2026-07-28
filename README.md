@@ -43,3 +43,16 @@ This project demonstrates the following C++ and Object-Oriented Programming conc
 * Data Management & Report Generation
 * Input Validation
 * Real-World OOP Application Development
+
+---
+
+## 🛠️ Technologies Used
+
+* **Programming Language:** C++
+* **Programming Paradigm:** Object-Oriented Programming (OOP)
+* **Standard Template Library (STL):** `vector`, `map`
+* **Development Environment:** Visual Studio
+* **Application Type:** Console-Based Application
+* **Concepts:** Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction
+
+---

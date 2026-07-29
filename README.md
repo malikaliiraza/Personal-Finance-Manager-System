@@ -28,24 +28,6 @@ The **Personal Finance Manager** is a C++ console application developed using **
 
 ---
 
-## 🎯 Learning Objectives
-
-This project demonstrates the following C++ and Object-Oriented Programming concepts:
-
-* Classes & Objects
-* Inheritance
-* Polymorphism
-* Encapsulation
-* Abstraction
-* Constructors & Destructors
-* Function Overriding
-* Menu-Driven Programming
-* Data Management & Report Generation
-* Input Validation
-* Real-World OOP Application Development
-
----
-
 ## 🛠️ Technologies Used
 
 * **Programming Language:** C++
@@ -53,5 +35,100 @@ This project demonstrates the following C++ and Object-Oriented Programming conc
 * **Development Environment:** Visual Studio
 * **Application Type:** Console-Based Application
 * **Concepts:** Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction
+
+---
+
+## 🎯 Learning Objectives
+
+This project demonstrates the following programming concepts:
+
+* Object-Oriented Programming (OOP)
+* Classes & Objects
+* Inheritance
+* Polymorphism
+* Encapsulation
+* Abstraction
+* Constructors & Destructors
+* Function Overriding
+* Standard Template Library (STL)
+* Vectors & Maps
+* Menu-Driven Programming
+* Input Validation
+* Financial Data Management
+* Report Generation
+
+---
+
+## Sample Run
+
+```
+Enter password to access Personal Finance Manager: 1234
+
+--- Personal Finance Manager ---
+1. Add Income
+2. Add Expense
+3. View Balance
+4. View Transactions
+5. Schedule a Meeting
+6. View Scheduled Meetings
+7. Generate Daily Report
+8. Generate Monthly Report
+0. Exit
+
+Enter your choice: 1
+Enter date (YYYY-MM-DD): 2026-07-29
+Enter amount: 5000
+Enter description: Salary
+Income added successfully.
+
+Enter your choice: 2
+Enter date (YYYY-MM-DD): 2026-07-29
+Enter amount: 1200
+Enter description: Grocery Shopping
+Expense added successfully.
+
+Enter your choice: 3
+Current Balance: $3800
+
+Enter your choice: 4
+
+Transaction History:
+Income - $5000 : Salary on 2026-07-29
+Expense - $1200 : Grocery Shopping on 2026-07-29
+
+Enter your choice: 5
+Enter date (YYYY-MM-DD): 2026-07-30
+Enter time (HH:MM): 10:00
+Enter meeting note: Bank Appointment
+Meeting scheduled successfully.
+
+Enter your choice: 6
+
+Scheduled Meetings:
+Meeting on 2026-07-30 at 10:00 - Bank Appointment
+
+Enter your choice: 7
+
+--- Daily Report ---
+Date: 2026-07-29
+  Income: $5000
+  Expenses: $1200
+  Balance at end of day: $3800
+  Profit for the day: $3800
+-------------------------
+
+Enter your choice: 8
+
+--- Monthly Report ---
+Month: 2026-07
+  Total Income: $5000
+  Total Expenses: $1200
+  End-of-Month Balance: $3800
+  Profit for the month: $3800
+-------------------------------
+
+Enter your choice: 0
+Exiting... Goodbye!
+```
 
 ---

@@ -132,3 +132,16 @@ Exiting... Goodbye!
 ```
 
 ---
+
+## Project Structure
+
+```
+Personal-Finance-Manager-System
+│
+│
+├── Code.cpp
+├── README.md
+└── Sample Run.png
+```
+
+---

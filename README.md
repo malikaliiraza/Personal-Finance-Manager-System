@@ -139,9 +139,32 @@ Exiting... Goodbye!
 Personal-Finance-Manager-System
 │
 │
-├── Code.cpp
+├── Source.cpp
 ├── README.md
 └── Sample Run.png
+```
+
+---
+
+## Getting Started
+
+### Prerequisites
+- Microsoft Visual Studio, **or** any C++ compiler (g++, clang++, etc.)
+
+### Installation
+
+```bash
+git clone https://github.com/malikaliiraza/Personal-Finance-Manager-System-.git
+cd Personal-Finance-Manager-System-
+```
+
+**Option A — Visual Studio**
+Open the project folder in Visual Studio and run the application (Ctrl+F5).
+
+**Option B — Command line (g++)**
+```bash
+g++ Source.cpp -o Personal-Finance-Manager-System-
+./Personal-Finance-Manager-System-
 ```
 
 ---

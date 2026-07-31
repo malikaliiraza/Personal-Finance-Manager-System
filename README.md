@@ -175,3 +175,17 @@ g++ Source.cpp -o Personal-Finance-Manager-System-
 https://github.com/malikaliiraza/Personal-Finance-Manager-System
 
 ---
+
+## Connect With Me
+
+**Malik Ali Raza**
+Software Engineering Undergraduate
+Riphah International University
+
+- **Portfolio:** https://malikaliiraza.github.io/
+- **LinkedIn:** https://www.linkedin.com/in/malikaliraza/
+- **GitHub:** https://github.com/malikaliiraza
+
+---
+
+⭐ If you found this project useful, consider giving it a star on GitHub

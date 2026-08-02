@@ -76,58 +76,82 @@ Enter password to access Personal Finance Manager: 1234
 0. Exit
 
 Enter your choice: 1
-Enter date (YYYY-MM-DD): 2026-07-29
+
+Enter date (YYYY-MM-DD): 2026-08-02
 Enter amount: 5000
 Enter description: Salary
+
 Income added successfully.
 
+--- Personal Finance Manager ---
 Enter your choice: 2
-Enter date (YYYY-MM-DD): 2026-07-29
-Enter amount: 1200
-Enter description: Grocery Shopping
+
+Enter date (YYYY-MM-DD): 2026-08-02
+Enter amount: 1500
+Enter description: Groceries
+
 Expense added successfully.
 
+--- Personal Finance Manager ---
 Enter your choice: 3
-Current Balance: $3800
 
+Current Balance: $3500
+
+--- Personal Finance Manager ---
 Enter your choice: 4
 
 Transaction History:
-Income - $5000 : Salary on 2026-07-29
-Expense - $1200 : Grocery Shopping on 2026-07-29
 
+Income - $5000 : Salary on 2026-08-02
+Expense - $1500 : Groceries on 2026-08-02
+
+--- Personal Finance Manager ---
 Enter your choice: 5
-Enter date (YYYY-MM-DD): 2026-07-30
+
+Enter date (YYYY-MM-DD): 2026-08-03
 Enter time (HH:MM): 10:00
-Enter meeting note: Bank Appointment
+Enter meeting note: Budget Planning Meeting
+
 Meeting scheduled successfully.
 
+--- Personal Finance Manager ---
 Enter your choice: 6
 
 Scheduled Meetings:
-Meeting on 2026-07-30 at 10:00 - Bank Appointment
 
+Meeting on 2026-08-03 at 10:00 - Budget Planning Meeting
+
+--- Personal Finance Manager ---
 Enter your choice: 7
 
 --- Daily Report ---
-Date: 2026-07-29
+
+Date: 2026-08-02
+
   Income: $5000
-  Expenses: $1200
-  Balance at end of day: $3800
-  Profit for the day: $3800
+  Expenses: $1500
+  Balance at end of day: $3500
+  Profit for the day: $3500
+
 -------------------------
 
+--- Personal Finance Manager ---
 Enter your choice: 8
 
 --- Monthly Report ---
-Month: 2026-07
+
+Month: 2026-08
+
   Total Income: $5000
-  Total Expenses: $1200
-  End-of-Month Balance: $3800
-  Profit for the month: $3800
+  Total Expenses: $1500
+  End-of-Month Balance: $3500
+  Profit for the month: $3500
+
 -------------------------------
 
+--- Personal Finance Manager ---
 Enter your choice: 0
+
 Exiting... Goodbye!
 ```
 

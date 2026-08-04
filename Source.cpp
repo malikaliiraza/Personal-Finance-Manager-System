@@ -20,7 +20,14 @@ private:
     string type;
     double amount;
     string description;
+public:
+    Transaction(const string& t, double a, const string& d, const string& dt)
+        : Record(dt), type(t), amount(a), description(d) {}
 
+    void display() const override {
+        cout << type << " - $" << amount << " : " << description << " on " << date << endl;
+    }
 
-
+    string getType() const { return type; }
+    double getAmount() const { return amount; }
 };

@@ -15,4 +15,12 @@ public:
     string getDate() const { return date; }
     virtual ~Record() {} 
 };
-class Transaction : public Record
+class Transaction : public Record {
+private:
+    string type;
+    double amount;
+    string description;
+
+
+
+};

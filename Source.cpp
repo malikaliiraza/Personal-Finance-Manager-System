@@ -35,6 +35,6 @@ public:
     double getAmount() const { return amount; }
 };
 
-
 class Meeting : public Record {
 private:
+    string time;

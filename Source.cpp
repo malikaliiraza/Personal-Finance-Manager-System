@@ -38,3 +38,4 @@ public:
 class Meeting : public Record {
 private:
     string time;
+    string name;

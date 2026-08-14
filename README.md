@@ -212,4 +212,21 @@ Riphah International University
 
 ---
 
+## ✨ Future Features
+
+* 🔐 Password-protected user authentication
+* 💵 Add and manage income records
+* 💸 Record and track expenses
+* 💰 View real-time account balance
+* 📜 Display complete transaction history
+* 📅 Schedule and manage meetings
+* 📊 Generate daily financial reports
+* 📈 Generate monthly financial reports
+* 📉 Automatic profit and loss calculation
+* ⚠️ Prevents overspending by validating available balance
+* 🧩 Modular OOP-based architecture using classes and inheritance
+* 📚 Utilizes C++ STL (`vector` and `map`) for efficient data management
+
+---
+
 ⭐ If you found this project useful, consider giving it a star on GitHub

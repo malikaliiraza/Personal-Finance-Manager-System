@@ -40,3 +40,12 @@ class Meeting : public Record {
 private:
     string time;
     string note;
+
+public:
+    Meeting(const string& d, const string& t, const string& n)
+        : Record(d), time(t), note(n) {}
+
+    void display() const override {
+        cout << "Meeting on " << date << " at " << time << " - " << note << endl;
+    }
+};

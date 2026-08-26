@@ -24,7 +24,7 @@ private:
     string description;
 
 public:
-    Transaction (const string& t, double a, const string& d, const string& dt)
+    Transaction(const string& t, double a, const string& d, const string& dt)
         : Record(dt), type(t), amount(a), description(d) {}
 
     void display() const override {
@@ -42,7 +42,7 @@ private:
     string note;
 
 public:
-    Meeting (const string& d, const string& t, const string& n)
+    Meeting(const string& d, const string& t, const string& n)
         : Record(d), time(t), note(n) {}
 
     void display() const override {

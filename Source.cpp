@@ -10,7 +10,7 @@ protected:
     string date;
 
 public:
-    Record (const string& d) : date(d) {}
+    Record(const string& d) : date(d) {}
     virtual void display() const = 0; 
     string getDate() const { return date; }
     virtual ~Record() {} 
@@ -24,7 +24,7 @@ private:
     string description;
 
 public:
-    Transaction (const string& t, double a, const string& d, const string& dt)
+    Transaction(const string& t, double a, const string& d, const string& dt)
         : Record(dt), type(t), amount(a), description(d) {}
 
     void display() const override {
@@ -42,7 +42,7 @@ private:
     string note;
 
 public:
-    Meeting (const string& d, const string& t, const string& n)
+    Meeting(const string& d, const string& t, const string& n)
         : Record(d), time(t), note(n) {}
 
     void display() const override {
@@ -66,7 +66,7 @@ public:
     }
 
     void addExpense (double amount, const string& desc, const string& date) {
-        if (amount > balance) {
+        if(amount > balance) {
             cout << "Error: Not enough balance.\n";
             return;
         }
@@ -80,12 +80,12 @@ public:
     }
 
     void viewTransactions() const {
-        if (transactions.empty()) {
+        if(transactions.empty()) {
             cout << "No transactions yet.\n";
             return;
         }
         cout << "Transaction History:\n";
-        for (const auto& t : transactions) {
+        for(const auto& t : transactions) {
             t.display();
         }
     }
@@ -110,7 +110,7 @@ public:
         double totalIncome = 0;
         double totalExpense = 0;
 
-        for (const auto& entry : summary) {
+        for(const auto& entry : summary) {
             totalIncome += entry.second.first;
             totalExpense += entry.second.second;
         }
@@ -119,7 +119,7 @@ public:
     }
 
     void generateDailyReport() const {
-        if (transactions.empty()) {
+        if(transactions.empty()) {
             cout << "No transactions available for report.\n";
             return;
         }
@@ -167,7 +167,7 @@ public:
     }
 
     void generateMonthlyReport() const {
-        if (transactions.empty()) {
+        if(transactions.empty()) {
             cout << "No transactions available for monthly report.\n";
             return;
         }
@@ -176,15 +176,15 @@ public:
         map<string, double> monthlyEndBalance;
         double runningBalance = 0;
 
-        for (const auto& t : transactions) {
+        for(const auto& t : transactions) {
             string month = t.getDate().substr(0, 7);
             string type = t.getType();
             double amount = t.getAmount();
 
-            if (type == "Income") {
+            if(type == "Income") {
                 monthlySummary[month].first += amount;
                 runningBalance += amount;
-            } else if (type == "Expense") {
+            } else if(type == "Expense") {
                 monthlySummary[month].second += amount;
                 runningBalance -= amount;
             }
@@ -205,7 +205,7 @@ public:
             cout << "  End-of-Month Balance: $" << balance << "\n";
 
             double profitOrLoss = income - expense;
-            if (profitOrLoss >= 0) {
+            if(profitOrLoss >= 0) {
                 cout << "  Profit for the month: $" << profitOrLoss << endl;
             } else {
                 cout << "  Loss for the month: $" << -profitOrLoss << endl;

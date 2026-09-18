@@ -10,7 +10,7 @@ protected:
     string date;
 
 public:
-    Record (const string& d) : date(d) {}
+    Record(const string& d) : date(d) {}
     virtual void display() const = 0; 
     string getDate() const { return date; }
     virtual ~Record() {} 
@@ -24,7 +24,7 @@ private:
     string description;
 
 public:
-    Transaction (const string& t, double a, const string& d, const string& dt)
+    Transaction(const string& t, double a, const string& d, const string& dt)
         : Record(dt), type(t), amount(a), description(d) {}
 
     void display() const override {
@@ -42,7 +42,7 @@ private:
     string note;
 
 public:
-    Meeting (const string& d, const string& t, const string& n)
+    Meeting(const string& d, const string& t, const string& n)
         : Record(d), time(t), note(n) {}
 
     void display() const override {
@@ -65,7 +65,7 @@ public:
         cout << "Income added successfully.\n";
     }
 
-    void addExpense (double amount, const string& desc, const string& date) {
+    void addExpense(double amount, const string& desc, const string& date) {
         if(amount > balance) {
             cout << "Error: Not enough balance.\n";
             return;
@@ -96,7 +96,7 @@ public:
     }
 
     void viewMeetings() const {
-        if (meetings.empty()) {
+        if(meetings.empty()) {
             cout << "No meetings scheduled.\n";
             return;
         }
@@ -110,7 +110,7 @@ public:
         double totalIncome = 0;
         double totalExpense = 0;
 
-        for (const auto& entry : summary) {
+        for(const auto& entry : summary) {
             totalIncome += entry.second.first;
             totalExpense += entry.second.second;
         }
@@ -119,7 +119,7 @@ public:
     }
 
     void generateDailyReport() const {
-        if (transactions.empty()) {
+        if(transactions.empty()) {
             cout << "No transactions available for report.\n";
             return;
         }
@@ -128,15 +128,15 @@ public:
         map<string, double> dailyBalance;
         double runningBalance = 0;
 
-        for (const auto& t : transactions) {
+        for(const auto& t : transactions) {
             string date = t.getDate();
             string type = t.getType();
             double amount = t.getAmount();
 
-            if (type == "Income") {
+            if(type == "Income") {
                 dailySummary[date].first += amount;
                 runningBalance += amount;
-            } else if (type == "Expense") {
+            } else if(type == "Expense") {
                 dailySummary[date].second += amount;
                 runningBalance -= amount;
             }
@@ -145,7 +145,7 @@ public:
         }
 
         cout << "\n--- Daily Report ---\n";
-        for (const auto& entry : dailySummary) {
+        for(const auto& entry : dailySummary) {
             const string& date = entry.first;
             double income = entry.second.first;
             double expense = entry.second.second;
@@ -157,7 +157,7 @@ public:
             cout << "  Balance at end of day: $" << endBalance << "\n";
 
             double profitOrLoss = income - expense;
-            if (profitOrLoss >= 0) {
+            if(profitOrLoss >= 0) {
                 cout << "  Profit for the day: $" << profitOrLoss << endl;
             } else {
                 cout << "  Loss for the day: $" << -profitOrLoss << endl;

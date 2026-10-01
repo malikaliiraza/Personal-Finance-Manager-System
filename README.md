@@ -30,11 +30,11 @@ The **Personal Finance Manager** is a C++ console application developed using **
 
 ## 🛠️ Technologies Used
 
-* **Programming Language :** C++
-* **Programming Paradigm :** Object-Oriented Programming (OOP)
-* **Development Environment :** Microsoft Visual Studio
-* **Application Type :** Console-Based Application
-* **Concepts :** Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction
+* **Programming Language:** C++
+* **Programming Paradigm:** Object-Oriented Programming (OOP)
+* **Development Environment:** Microsoft Visual Studio
+* **Application Type:** Console-Based Application
+* **Concepts:** Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction
 
 ---
 
@@ -205,9 +205,9 @@ https://github.com/malikaliiraza/Personal-Finance-Manager-System
 Software Engineering Undergraduate
 Riphah International University
 
-- **Portfolio:** https://malikaliiraza.github.io/
-- **LinkedIn:** https://www.linkedin.com/in/malikaliraza/
-- **GitHub:** https://github.com/malikaliiraza
+- **Portfolio :** https://malikaliiraza.github.io/
+- **LinkedIn :** https://www.linkedin.com/in/malikaliraza/
+- **GitHub :** https://github.com/malikaliiraza
 
 ---
 

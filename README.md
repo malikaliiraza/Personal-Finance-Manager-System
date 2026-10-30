@@ -30,17 +30,17 @@ The **Personal Finance Manager** is a C++ console application developed using **
 
 ## 🛠️ Technologies Used
 
-* **Programming Language:** C++
-* **Programming Paradigm:** Object-Oriented Programming (OOP)
-* **Development Environment:** Microsoft Visual Studio
-* **Application Type:** Console-Based Application
-* **Concepts:** Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction
+* **Programming Language :** C++
+* **Programming Paradigm :** Object-Oriented Programming (OOP)
+* **Development Environment :** Microsoft Visual Studio
+* **Application Type :** Console-Based Application
+* **Concepts :** Classes, Objects, Inheritance, Polymorphism, Encapsulation, Abstraction
 
 ---
 
 ## 🎯 Learning Objectives
 
-This project demonstrates the following programming concepts:
+This project demonstrates the following programming concepts :
 
 * Object-Oriented Programming (OOP)
 * Classes & Objects
@@ -161,7 +161,6 @@ Exiting... Goodbye!
 
 ```
 Personal-Finance-Manager-System
-│
 │
 ├── Source.cpp
 ├── README.md
